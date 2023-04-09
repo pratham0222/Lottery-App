@@ -4,9 +4,7 @@ const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
   'print cinnamon rescue volume soup visit pig regular card unable radio end',
-  // remember to change this to your own phrase!
   'https://goerli.infura.io/v3/7cc9d9a1e9434138b7416d306e91085a'
-  // remember to change this to your own endpoint!
 );
 const web3 = new Web3(provider);
 
